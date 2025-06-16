@@ -1,0 +1,9 @@
+## Interface: 11200
+## Title: LowlifeTWW [|cff3fcf26Turtle|r]
+## Notes: Plays a sound when your health goes below 35%
+## Author: Deathheavy
+## Version: 0.1
+## URL: https://github.com/Deathheavy/LowlifeTWW-Turtle
+## SavedVariables: LowlifeTWW_SavedVars
+
+LowlifeTWW.lua
