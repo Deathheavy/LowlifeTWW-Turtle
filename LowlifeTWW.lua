@@ -30,10 +30,10 @@ end)
 -- Login
 f:RegisterEvent("PLAYER_ENTERING_WORLD")
 f:SetScript("OnEvent", function()
-    DEFAULT_CHAT_FRAME:AddMessage("|cFF00FF00LowlifeTWW|r-|cFFFF0000Turtle|r loaded.")
+    DEFAULT_CHAT_FRAME:AddMessage("|cFF00FF00LowlifeTWW|r-|cFFFF0000Turtle|r loaded, use |cFFFF0000 /lowlife '0 - 100'|r to change the threshold|r"")
 end)
 
--- Slash command sem a parte de mudar o valor pq pau no cu do classic e seus vars
+-- Slash command
 SLASH_LOWLIFE1 = "/lowlife"
 SlashCmdList["LOWLIFE"] = function(msg)
     local num = tonumber(msg)
