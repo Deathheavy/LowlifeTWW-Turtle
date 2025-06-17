@@ -30,7 +30,7 @@ end)
 -- Login
 f:RegisterEvent("PLAYER_ENTERING_WORLD")
 f:SetScript("OnEvent", function()
-    DEFAULT_CHAT_FRAME:AddMessage("|cFF00FF00LowlifeTWW|r-|cFFFF0000Turtle|r loaded, use |cFFFF0000 /lowlife '0 - 100'|r to change the threshold|r"")
+    DEFAULT_CHAT_FRAME:AddMessage("|cFF00FF00LowlifeTWW|r-|cFFFF0000Turtle|r loaded, use |cFFFF0000 /lowlife '0 - 100'|r to change the threshold|r")
 end)
 
 -- Slash command
